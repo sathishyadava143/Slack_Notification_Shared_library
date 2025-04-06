@@ -1,6 +1,5 @@
 Jenkins_Shared_Libraries:
 --------------------------
-**
 Go to Jenkins → Manage Jenkins → Configure System → Global Pipeline Libraries
 Add or confirm:
 
@@ -10,12 +9,12 @@ Add or confirm:
 
     Source Code Management: Git
 
-    Project Repository: URL of your shared library Git repo**
+    Project Repository: URL of your shared library Git repo
     
 slack_job:
 ---------
 
-**@Library('my-shared-lib') _
+@Library('my-shared-lib') _
 pipeline {
     agent any
     stages {
@@ -38,4 +37,4 @@ pipeline {
         }
     }
 }
-**
+
