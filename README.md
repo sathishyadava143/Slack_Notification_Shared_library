@@ -13,7 +13,7 @@ Add or confirm:
     
 slack_job:
 ---------
-
+'''
 @Library('my-shared-lib') _
 pipeline {
     agent any
@@ -37,4 +37,5 @@ pipeline {
         }
     }
 }
+'''
 
