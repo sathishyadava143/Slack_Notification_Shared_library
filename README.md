@@ -13,10 +13,12 @@ Add or confirm:
     
 slack_job:
 ---------
-'''
+
 @Library('my-shared-lib') _
+
 pipeline {
     agent any
+
     stages {
         stage('Example') {
             steps {
@@ -24,6 +26,7 @@ pipeline {
             }
         }
     }
+
     post {
         success {
             script {
@@ -37,5 +40,3 @@ pipeline {
         }
     }
 }
-'''
-
